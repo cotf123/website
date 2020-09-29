@@ -357,15 +357,27 @@ a.pure-button-primary {
  * Choose a different color based on the type of pricing table.
  */
 .pricing-table-free .pricing-table-header {
-    background: url(startup2.jpg);
+    background: url(video1.jpg);
 }
 
 .pricing-table-biz .pricing-table-header {
-    background: url(startup3.jpg);
+    background: url(video2.jpg);
 }
 
 .pricing-table-enterprise .pricing-table-header {
-    background: url(startup4.jpg);
+    background: url(video3.jpg);
+}
+
+.pricing-table-free1 .pricing-table-header {
+    background: url(video4.jpg);
+}
+
+.pricing-table-biz1 .pricing-table-header {
+    background: url(video5.jpg);
+}
+
+.pricing-table-enterprise1 .pricing-table-header {
+    background: url(video6.jpg);
 }
 
 /*
@@ -446,17 +458,32 @@ a.pure-button-primary {
 
 @media (max-width: 480px) {
 .pricing-table-free .pricing-table-header {
-    background: url(startup2.jpg);
+    background: url(video1.jpg);
     height: 13rem;
     background-size: cover;
 }
 .pricing-table-biz .pricing-table-header {
-    background: url(startup3.jpg);
+    background: url(video2.jpg);
     height: 13rem;
     background-size: cover;
 }
 .pricing-table-enterprise .pricing-table-header {
-    background: url(startup4.jpg);
+    background: url(video3.jpg);
+    height: 13rem;
+    background-size: cover;
+}
+.pricing-table-free1 .pricing-table-header {
+    background: url(video4.jpg);
+    height: 13rem;
+    background-size: cover;
+}
+.pricing-table-biz1 .pricing-table-header {
+    background: url(video5.jpg);
+    height: 13rem;
+    background-size: cover;
+}
+.pricing-table-enterprise1 .pricing-table-header {
+    background: url(video6.jpg);
     height: 13rem;
     background-size: cover;
 }
